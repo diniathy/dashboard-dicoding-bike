@@ -1,8 +1,6 @@
 import pandas as pd
-import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
-sns.set(style='dark')
 
 day_path = "Bike-sharing-dataset\day.csv"
 day_df = pd.read_csv(day_path)
